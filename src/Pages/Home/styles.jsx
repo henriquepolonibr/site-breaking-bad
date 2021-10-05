@@ -22,6 +22,16 @@ export const GreenRectangleStyle = styled.div`
 `;
 
 export const Title = styled.h1`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald,Helvetica Neue,Arial,sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.4;
+`;
+
+export const Subtitle = styled.h2`
   z-index: 1;
   top: 10rem;
   position: relative;
