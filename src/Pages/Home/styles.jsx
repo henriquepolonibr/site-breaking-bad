@@ -13,7 +13,7 @@ export const Wrapper = styled.section`
 export const GreenRectangleStyle = styled.div`
   position: absolute;
   z-index: 0;
-  top: 10rem;
+  top: 12rem;
   left: -150%;
   width: 230%;
   height: 250px;

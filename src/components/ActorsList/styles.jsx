@@ -9,6 +9,7 @@ export const List = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 export const ListItem = styled.div`
