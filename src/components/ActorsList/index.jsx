@@ -10,7 +10,6 @@ const ActorsList = () => {
     axios.get('https://www.breakingbadapi.com/api/characters')
       .then((response) => {
         setActorData(response.data);
-        console.log('response', response.data);
       });
   }, []);
   return (
