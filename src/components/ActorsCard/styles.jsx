@@ -9,7 +9,7 @@ export const ActorCard = styled.div`
 
 export const CardImg = styled.img`
   width: 20rem;
-  height: 40rem;
+  height: 30rem;
   border: solid .1rem white;
   position: relative;
 `;
@@ -32,5 +32,9 @@ export const CardDescription = styled.div`
 
 export const CardText = styled.div`
   color: white;
-  padding: 0.5rem 0;
+  padding: 0.7rem 0;
+`;
+
+export const LineThrough = styled.div`
+  text-decoration: line-through;
 `;
